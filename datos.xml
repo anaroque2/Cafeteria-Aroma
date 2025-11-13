@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+  <producto>
+    <nombre>Latte Vainilla</nombre>
+    <precio>48</precio>
+    <descripcion>Bebida cremosa con esencia de vainilla natural</descripcion>
+  </producto>
+  <producto>
+    <nombre>Cold Brew</nombre>
+    <precio>50</precio>
+    <descripcion>Café infusionado en frío durante 12 horas</descripcion>
+  </producto>
+  <producto>
+    <nombre>Pan de plátano</nombre>
+    <precio>35</precio>
+    <descripcion>Pan artesanal con trozos de nuez</descripcion>
+  </producto>
+</catalogo>

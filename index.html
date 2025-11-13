@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- Declaración de tipo de documento: indica que se usa HTML5 -->
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafetería Aroma — Proyecto Web</title>
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+  <!-- Encabezado -->
+  <header>
+    <h1>Cafetería Aroma</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#menu">Menú</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sección principal -->
+  <main>
+    <!-- Hero / Bienvenida -->
+    <section id="inicio" class="hero">
+      <div class="hero-texto">
+        <h2>Disfruta el mejor café artesanal</h2>
+        <p>En <strong>Cafetería Aroma</strong> cada taza cuenta una historia. Ven a probar nuestros granos seleccionados y postres caseros.</p>
+        <a href="#menu" class="boton">Ver Menú</a>
+      </div>
+      <div class="hero-img">
+        <img src="https://www.baque.com/wp-content/uploads/2017/09/Las-mejores-obras-de-arte-de-cafe-en-Instagram.jpg" alt="Taza de café caliente en mesa de madera">
+      </div>
+    </section>
+
+    <!-- Menú -->
+    <section id="menu">
+      <h2>Nuestro Menú</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Bebida</th>
+            <th>Descripción</th>
+            <th>Precio</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Café Americano</td>
+            <td>Granos tostados suaves con aroma intenso.</td>
+            <td>$30</td>
+          </tr>
+          <tr>
+            <td>Capuchino</td>
+            <td>Espresso, leche vaporizada y un toque de cacao.</td>
+            <td>$45</td>
+          </tr>
+          <tr>
+            <td>Latte Vainilla</td>
+            <td>Café con leche espumosa y esencia de vainilla.</td>
+            <td>$48</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Video -->
+    <section id="video">
+      <h2>Conoce nuestra historia</h2>
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/h20U7Mtev6o?si=XgdZmgtnxDq5N590" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </section>
+
+    <!-- Catálogo XML -->
+    <section id="catalogo">
+      <h2>Catálogo de productos</h2>
+      <p>Consulta nuestro catálogo completo en formato XML:</p>
+      <a href="datos.xml" class="boton" target="_blank">Ver catálogo XML</a>
+    </section>
+
+    <!-- Formulario de contacto -->
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <form action="#" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" placeholder="correo@ejemplo.com" required>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" pattern="[A-Za-z\s]{3,}" placeholder="Motivo del mensaje" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer>
+    <p>© 2025 Cafetería Aroma. Proyecto estudiantil.</p>
+  </footer>
+
+</body>
+</html>
+
